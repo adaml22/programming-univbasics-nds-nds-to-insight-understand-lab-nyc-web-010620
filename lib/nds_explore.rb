@@ -9,5 +9,5 @@ end
 
 def print_first_directors_movie_titles
   first_director = directors_database[0]
-  pp first_director.map{|title| "#{title}"}
+  pp first_director.reduce{|title| "#{title}"}
 end
