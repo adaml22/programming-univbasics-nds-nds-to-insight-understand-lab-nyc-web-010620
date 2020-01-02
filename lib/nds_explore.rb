@@ -8,7 +8,7 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  first_director = directors_database.reduce(:name) |memo|
+  first_director = directors_database.reduce(name) |memo|
   memo = directors_database[0]
   p first_director
 end
