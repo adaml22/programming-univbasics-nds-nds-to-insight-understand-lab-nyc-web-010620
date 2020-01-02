@@ -10,7 +10,5 @@ end
 def print_first_directors_movie_titles
   first_director = directors_database[0]
   first_director_movies = first_director[0]
-  first_director_movies.each do
-    p first_director_movies[:titles]
-  end
+  p first_director_movies[:titles]
 end
