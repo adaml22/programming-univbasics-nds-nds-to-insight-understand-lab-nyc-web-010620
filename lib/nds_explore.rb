@@ -8,7 +8,7 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  first_director = directors_database.reduce(nil) |memo, (name, directors_database)|
+  first_director = directors_database.reduce(nil) |memo|
   memo = directors_database[0] if !memo
   p first_director
 end
