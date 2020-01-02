@@ -9,6 +9,6 @@ end
 
 def print_first_directors_movie_titles
   first_director = directors_database.reduce(nil) |memo|
-  memo = directors_database[0] if !memo
+  memo = directors_database[0]
   p first_director
 end
