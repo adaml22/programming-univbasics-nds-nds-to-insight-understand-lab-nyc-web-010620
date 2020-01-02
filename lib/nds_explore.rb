@@ -9,6 +9,6 @@ end
 
 def print_first_directors_movie_titles
   first_director = directors_database[0]
-  titles = first_director.reduce{|title|}
+  titles = first_director.reduce{|title.index|}
   p titles
 end
