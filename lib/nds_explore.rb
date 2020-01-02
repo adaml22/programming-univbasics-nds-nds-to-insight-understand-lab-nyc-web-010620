@@ -9,7 +9,8 @@ end
 
 def print_first_directors_movie_titles
   first_director = directors_database[0]
-  first_director.each do
-    p :title
-  end
+  first_director_movies = first_director[0]
+  #first_director.each{ |pair|}
+  #end
+  p first_director_movies
 end
