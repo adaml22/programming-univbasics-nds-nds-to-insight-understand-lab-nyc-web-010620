@@ -9,5 +9,5 @@ end
 
 def print_first_directors_movie_titles
   first_director = directors_database[0]
-  p first_director[title]
+  p first_director[0]
 end
