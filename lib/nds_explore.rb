@@ -10,9 +10,7 @@ end
 def print_first_directors_movie_titles
   dir_movies = directors_database[0][:movies]
   i = 0
-
   while i < dir_movies.length do
-      # binding.pry
     puts dir_movies[i][:title]
     i += 1
   end
